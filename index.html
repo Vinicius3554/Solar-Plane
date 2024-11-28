@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Plane</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <h1>
+                Solar Plane
+            </h1>
+        </header>
+
+        <section class="data-grid">
+            <div class="data-item">
+                <h2>Status</h2>
+                <p class="status-value">Online</p>
+            </div>
+            <div class="data-item">
+                <h2>Tempo de Operação</h2>
+                <p id="uptime">00:00:00</p>
+            </div>
+            <div class="data-item">
+                <h2>Geração Instantânea</h2>
+                <p id="instant-generation">0 kwhs</p>
+            </div>
+            <div class="data-item">
+                <h2>Economia Monetaria</h2>
+                <p id="economy">R$ 0,000</p>
+            </div>
+            <div class="data-item">
+                <h2>Irradiância Solar</h2>
+                <p id="irradiance">0 W/m²</p>
+            </div>
+            <div class="data-item">
+                <h2>Cobertura de Sombra</h2>
+                <p id="shadow-coverage">0%</p>
+            </div>
+            <div class="data-item">
+                <h2>Temperatura do Painel</h2>
+                <p id="temperature">30°C</p>
+            </div>
+            <div class="data-item">
+                <h2>Eficiência do Sistema</h2>
+                <p id="efficiency">0%</p>
+            </div>
+        </section>
+
+        <section class="report">
+            <h2>Relatório Mensal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th>Energia Gerada (kwhs)</th>
+                        <th>Energia Consumida (kwhs)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>3.500</td>
+                        <td>4.000</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>3.200</td>
+                        <td>3.800</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>3.800</td>
+                        <td>4.100</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>4.200</td>
+                        <td>3.900</td>
+                    </tr>
+                    <tr>
+                        <td>Maio</td>
+                        <td>4.500</td>
+                        <td>3.700</td>
+                    </tr>
+                    <tr>
+                        <td>Junho</td>
+                        <td>4.700</td>
+                        <td>3.600</td>
+                    </tr>
+                    <tr>
+                        <td>Julho</td>
+                        <td>5.000</td>
+                        <td>3.500</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>4.900</td>
+                        <td>3.600</td>
+                    </tr>
+                    <tr>
+                        <td>Setembro</td>
+                        <td>4.600</td>
+                        <td>3.800</td>
+                    </tr>
+                    <tr>
+                        <td>Outubro</td>
+                        <td>4.100</td>
+                        <td>4.000</td>
+                    </tr>
+                    <tr>
+                        <td>Novembro</td>
+                        <td>3.700</td>
+                        <td>4.200</td>
+                    </tr>
+                    <tr>
+                        <td>Dezembro</td>
+                        <td>3.400</td>
+                        <td>4.300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3>Quanto de energia uma placa solar gera?</h3>
+                <p>A quantidade de energia gerada por uma placa solar depende de vários fatores, como a localização, a inclinação, a orientação, as condições climáticas e a eficiência do sistema.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como funciona um painel fotovoltaico?</h3>
+                <p>Um painel fotovoltaico é um conjunto de placas solares interconectadas que geram energia solar.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Qual a durabilidade dos painéis solares?</h3>
+                <p>Os painéis solares têm uma garantia de funcionamento de 25 anos, mas podem durar até 40 anos se bem cuidados.</p>
+            </div>
+            <div class="faq-item">
+                <h3>A energia solar é sustentável?</h3>
+                <p>Sim, a energia solar é limpa, renovável e sustentável.</p>
+            </div>
+
+        </section>
+        <footer>
+            <p>@ 2024 Solar Plane - &reg; Todos os direitos reservados
+            </p>
+        </footer>
+    </div>
+
+    <script src="randomDataGenerator.js"></script>
+</body>
+</html>
